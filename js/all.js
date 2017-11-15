@@ -9,7 +9,7 @@ $(document).ready(function() {
 		{
 
 			$("#bars").css("transform", "translateX(30vw)");
-			$("#bars #burg").css("transform", "rotate(180deg)");
+			$("#bars #burg").css("transform", "rotate(0deg)");
 			hide = false;
 		}
 		else if($(window).scrollTop() <= myTop) {
