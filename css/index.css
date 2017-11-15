@@ -1,5 +1,15 @@
 /* {} # @ */
 
+.slogan {
+	background-color: #eada33;
+	padding: 4px;
+}
+
+#slogan {
+	position: relative;
+	top: -5vh;
+}
+
 #main-container {
 	text-align: center;
 }
@@ -8,6 +18,8 @@
 }
 
 #tete {
+	position: relative;
+	top: -5vh;
 	width: 50%;
 	height: 80vh;
 }
