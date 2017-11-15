@@ -91,7 +91,7 @@ header {
 	transition: 0.7s;
 	font-size: 150%;
 	border-radius: 50%;
-	background: #eada33;
+	background: #888888;
 }
 #nav-bis {
 	padding: 5%;
@@ -105,7 +105,7 @@ header {
 	width: 80%;
 	transition: 0.5s;
 	z-index: 4;
-	background-color: #eada33;
+	background-color: #888888;
 }
 
 #nav-bis a {
@@ -123,8 +123,11 @@ header {
 	margin: 2vh 0 2vh 0;
 }*/
 
-.active {
-	color: rgb(100, 100, 100) !important;
+#nav-bis a.active, #nav-top a.active {
+	color: rgb(100, 100, 100);
+}
+#nav-bis a.active-g {
+	color: white;
 }
 
 .gradient-top {
