@@ -87,7 +87,7 @@ header {
 	justify-content: center;
 	width: 5vw;
 	height: 5vw;
-	transform: rotate(-180deg);
+	transform: rotate(-360deg);
 	transition: 0.7s;
 	font-size: 150%;
 	border-radius: 50%;

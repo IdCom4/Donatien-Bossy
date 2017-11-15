@@ -14,7 +14,7 @@ $(document).ready(function() {
 		}
 		else if($(window).scrollTop() <= myTop) {
 			$("#bars").css("transform", "translateX(-30vw)");
-			$("#bars #burg").css("transform", "rotate(-180deg)");
+			$("#bars #burg").css("transform", "rotate(-360deg)");
 			hide = true;
 		}
 	});
