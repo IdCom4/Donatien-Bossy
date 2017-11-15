@@ -17,6 +17,11 @@
 	margin: 10vh 0 5vh 0;
 }
 
+#cursus span {
+	background-color: #eada33;
+	padding: 4px;
+}
+
 #tete {
 	position: relative;
 	top: -5vh;
