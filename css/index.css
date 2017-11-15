@@ -1,0 +1,31 @@
+/* {} # @ */
+
+#main-container {
+	text-align: center;
+}
+#cursus {
+	margin: 10vh 0 5vh 0;
+}
+
+#tete {
+	width: 50%;
+	height: 80vh;
+}
+
+#text-wrapper {
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+h1 {
+	margin: 5vh 0 7vh 0;
+}
+
+h2 {
+	margin: 0 0 7vh 0;
+}
+
+p {
+	margin: 0 0 7vh 0;
+}
