@@ -20,8 +20,8 @@
 #tete {
 	position: relative;
 	top: -5vh;
-	width: 50%;
-	height: 80vh;
+	max-width: 80%;
+	max-height: 80vh;
 }
 
 #text-wrapper {
