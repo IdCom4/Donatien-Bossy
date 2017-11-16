@@ -7,6 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="../css/all.css">
 		<link rel="stylesheet" type="text/css" href="../css/affiches.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://use.fontawesome.com/64906f59e1.js"></script>
+		<script type="text/javascript" src="../js/all.js"></script>
+		<script type="text/javascript" src="../js/affiches.js"></script>
 	</head>
 	<body>
 		<header class="gradient-top">
@@ -18,7 +22,7 @@
 				<a href="contact.html">Contact</a>
 			</nav>
 			<div id="bars" >
-				<i class="fa fa-bars" aria-hidden="true"></i>
+				<i id="burg" class="fa fa-bars" aria-hidden="true"></i>
 				<nav id="nav-bis">
 					<a href="../index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;Accueil</a>
 					<a href="logotype.html"><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;Logotype</a>
@@ -29,9 +33,37 @@
 			</div>
 			<!-- <div id="fill" class="gradient-top"></div> -->
 		</header>
+		<div id="modal" class="d-none">
+			<figure>
+				<img src="../img/affiche/antipodeX1.jpg">
+			</figure>
+		</div>
 		<div id="main-container" class="shadow-top">
 			<div id="logo-container">
 				<img id="logo" src="../img/img_prez/logo_nom_donatien.png" alt="logo Donatien Bossy">
+			</div>
+			<div id="main-wrapper">
+				<h2>Voici quelques <span class="slogan">affiches</span> que j'ai réalisées jusqu'à présent.</h2>
+				<div id="affiche-wrapper">
+					<div class="height3 bloc" id="bloc-1">
+						<div class="medium left top contain" id="affiche-1"><figure class="fond"><img src="../img/affiche/campanile.jpg" alt="campanile"><figcaption>Voir</figcaption><figure></div>
+						<div class="little left bottom contain" id="affiche-2"><figure class="fond"><img src="../img/affiche/antipodeX3.jpg" alt="trois antipodes petit formats"><figcaption>Voir</figcaption><figure></div>
+						<div class="big right top contain" id="affiche-3"><figure class="fond"><img src="../img/affiche/antipodeX1.jpg" alt="antipode grand format"><figcaption>Voir</figcaption><figure></div>
+					</div>
+					<div class="height2 bloc" id="bloc-2">
+						<div class="medium left top contain" id="affiche-4"><figure class="fond"><img src="../img/affiche/water_balloon_coffee.jpg" alt="water balloon fight"><figcaption>Voir</figcaption><figure></div>
+						<div class="little right top contain" id="affiche-5"><figure class="fond"><img src="../img/affiche/light_walk.jpg" alt="light walk"><figcaption>Voir</figcaption><figure></div>
+						<div  class="little right bottom contain" id="affiche-6"><figure class="fond"><img src="../img/affiche/instru.jpg" alt="instruments"><figcaption>Voir</figcaption><figure></div>
+					</div>
+					<div class="height2 bloc" id="bloc-3">
+						<div class="little left top contain" id="affiche-7"><figure class="fond"><img src="../img/affiche/water_balloon_building.jpg" alt="water balloon fight"><figcaption>Voir</figcaption><figure></div>
+						<div class="little left bottom contain" id="affiche-8"><figure class="fond"><img src="../img/affiche/mutations_urbaines.jpg" alt="mutations urbaines"><figcaption>Voir</figcaption><figure></div>
+						<div class="medium right top contain" id="affiche-9"><figure class="fond"><img src="../img/affiche/bbq.jpg" alt="barbecue"><figcaption>Voir</figcaption><figure></div>
+					</div>
+					<div class="heightL bloc" id="bloc-4">
+						<div class="large contain" id="affiche-10"><figure class="fondL"><img src="../img/affiche/water_balloon_metro.jpg" alt="water balloon fight"><figcaption>Voir</figcaption><figure></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>

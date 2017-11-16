@@ -6,6 +6,7 @@ $(document).ready(function() {
 	var grey = false;
 	var myTop = $("#main-container").offset().top;
 	var myBottom = $("#main-wrapper").offset().top;
+	var active = $("a.active");
 	console.log("myBottom = " +myBottom);
 	console.log("myTop = " +myTop);
 	console.log("window = " +$(window).scrollTop());
@@ -51,13 +52,26 @@ $(document).ready(function() {
 	$("#bars #burg").click(function() {
 		if(out == true) {
 			$("#bars #burg").css("transform", "rotate(-180deg)");
-			$("#nav-bis").css("transform", "translateX(100%)");
+			$("#nav-bis").css("left", "0");
 			out = false;
 		}
 		else {
 			$("#bars #burg").css("transform", "rotate(180deg)");
-			$("#nav-bis").css("transform", "translateX(-100%)");
+			$("#nav-bis").css("left", "-100%");
 			out = true;
 		}
+	});
+	$("#bars a").hover(function() {
+		console.log("this = "+this);
+		console.log("active = "+ active);
+		if(grey == false)
+			$(this).addClass("activeB");
+		else
+			$(this).addClass("active-gB");
+	}, function() {
+		if(grey == false && this != active)
+			$(this).removeClass("activeB");
+		else if(this != active)
+			$(this).removeClass("active-gB");
 	});
 });
