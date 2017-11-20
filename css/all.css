@@ -108,7 +108,7 @@ header {
 	flex-direction: column;
 	position: absolute;
 	top: 15vh;
-	left: -100%;
+	/*left: -60vw;*/
 	/*width: 80%;*/
 	transition: 0.5s;
 	z-index: 4;
@@ -122,6 +122,12 @@ header {
 	padding-bottom: 1vh;
 	margin-bottom: 2vh;
 	margin-top: 0;
+}
+.nav-out {
+	left: 0;
+}
+.nav-in {
+	right: 100vw;
 }
 /*#nav-bis a:after {
 	content: "";

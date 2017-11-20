@@ -4,6 +4,7 @@ $(document).ready(function() {
 	var hide = true;
 	var hide = true;
 	var grey = false;
+	$("#nav-bis").css("transform", "translateX(-30vw)");
 	var myTop = $("#main-container").offset().top;
 	var myBottom = $("#main-wrapper").offset().top;
 	var active = $("a.active");
@@ -52,12 +53,12 @@ $(document).ready(function() {
 	$("#bars #burg").click(function() {
 		if(out == true) {
 			$("#bars #burg").css("transform", "rotate(-180deg)");
-			$("#nav-bis").css("left", "0");
+			$("#nav-bis").css("transform", "translateX(0vw)");
 			out = false;
 		}
 		else {
 			$("#bars #burg").css("transform", "rotate(180deg)");
-			$("#nav-bis").css("left", "-100%");
+			$("#nav-bis").css("transform", "translateX(-30vw)");
 			out = true;
 		}
 	});

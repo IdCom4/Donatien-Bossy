@@ -31,12 +31,19 @@
 .height3 {
 	height: 95vh;
 }
-.heightL {
+.height3-5 {
 	height: 80vh;
+}
+.heightL {
+	height: 45vh;
 }
 
 .little {
 	height: 30vh;
+}
+.height3.asym .medium {
+	width: 35% !important;
+	height: 45vh;
 }
 .height3 .medium {
 	height: 60vh;
@@ -44,8 +51,15 @@
 .height2 .medium {
 	height: 65vh;
 }
+.biger {
+	width: 55% !important;
+	height: 95vh;
+}
 .big {
 	height: 95vh;
+}
+.height3-5 .big {
+	height: 80vh;
 }
 .top {
 	top: 0;
@@ -61,7 +75,7 @@
 }
 
 .large {
-	/*height: 80vh;*/
+	height: 45vh;
 	width: 100% !important;
 }
 #affiche-wrapper figcaption {
@@ -96,6 +110,9 @@
 .medium figure:hover figcaption {
 	transform: translateY(-35vh);
 }
+.asym .medium figure:hover figcaption {
+	transform: translateY(-30vh);
+}
 
 .little figure:hover figcaption {
 	transform: translateY(-20vh);
@@ -103,8 +120,11 @@
 .big figure:hover figcaption {
 	transform: translateY(-50vh);
 }
+.biger figure:hover figcaption {
+	transform: translateY(-50vh);
+}
 .large figure:hover figcaption {
-	transform: translateY(-45vh);
+	transform: translateY(-30vh);
 }
 
 #main-wrapper figure:hover{
